@@ -1,7 +1,7 @@
 import logo from './logo.svg';
-import React from "react"
 import './App.css';
-import Title from "./components/";
+import React from 'react'
+import Title from './components/Title'
 
 const jsonLocalStorage = {
   setItem: (key, value) => {
@@ -92,7 +92,6 @@ const Form = ({ updateMainCat }) => {
     </form>
   )
 }
-
 
 
 const App = () => {
